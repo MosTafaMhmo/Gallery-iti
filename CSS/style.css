@@ -1,0 +1,110 @@
+.land {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: #eee;
+}
+
+.container {
+    width: 60%;
+    background-color: white;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2196f3;
+    letter-spacing: 5px;
+}
+
+.container .photos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .photos .img-right {
+    width: 600px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .photos .img-right .al {
+    width: 600px;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    opacity: .5;
+    border: 1px solid black;
+}
+
+.container .photos .img-right .al h1 {
+    color: black;
+}
+
+.container .photos .img-right .buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .photos .img-right .buttons button {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: none;
+    font-size: 30px;
+    color: white;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+.container .photos .img-right .buttons button:hover {
+    background-color: white;
+    color: #2196f3;
+    border: 3px solid #2196f3;
+}
+
+.container .photos .img-left {
+    width: 200px;
+    height: 474px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .photos .img-left img {
+
+    width: 160px;
+
+
+}
+
+.container .photos .img-left img:hover {
+    border: 2px solid #2196f3;
+}
